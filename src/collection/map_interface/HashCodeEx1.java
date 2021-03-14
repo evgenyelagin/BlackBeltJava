@@ -33,6 +33,11 @@ public class HashCodeEx1 {
         System.out.println(st1.hashCode());
         System.out.println(st4.hashCode());
         System.out.println(st5.hashCode());
+
+        // пример использования метода entrySet
+        for(Map.Entry<Student, Double> entry: map.entrySet()){
+            System.out.println(entry.getKey() + ":" + entry.getValue());
+        }
     }
 }
 class Student{
