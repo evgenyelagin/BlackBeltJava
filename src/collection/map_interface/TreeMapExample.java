@@ -28,6 +28,14 @@ public class TreeMapExample {
         System.out.println(treeMap);
         // метод descendingMap - развернуть treeMap в обратную сторону
         System.out.println(treeMap.descendingMap());
+        // метод tailMap - выведи мне ключи от 7.3 и выше
+        System.out.println(treeMap.tailMap(7.3));
+        // метод headMap - выведи мне ключи меньше 7.5
+        System.out.println(treeMap.headMap(7.5));
+        // lastEntry - показывает последнее значеник Мар
+        System.out.println(treeMap.lastEntry());
+        // firstEntry
+        System.out.println(treeMap.firstEntry());
     }
 
 }
