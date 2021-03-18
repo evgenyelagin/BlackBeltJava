@@ -19,7 +19,7 @@ public class BinarySearch {
         arrayList.add(150);
         // сначала надо отсортировать коллекцию, иначе будет выдавать некорректный результат
         Collections.sort(arrayList);
-        int index1 = Collections.binarySearch(arrayList, 150); /* коллекция.метод бинари сёрч(вставляем свою
+        int index1 = Collections.binarySearch(arrayList, 10); /* коллекция.метод бинари сёрч(вставляем свою
         коллекцию arrayList и элемент, который надо найти */
         System.out.println(index1); // вывод в консоль ПОЗИЦИИ - по сути индексе, где находится int 12.
         // если на консоль выводится ОТРИЦАТЕЛЬНЫЙ результат, значит значение не найдено.
